@@ -67,11 +67,13 @@ plt.figure()
 for i in range(3):
     depth_cm = np.array(depth_array[i]) * 1e-7
     LET_vals = np.array(LET_array[i])
-    plt.plot(depth_cm, LET_vals, linewidth=2)
+    plt.plot(depth_cm, LET_vals, linewidth=2, label=f'E0 = {E0[i]} MeV')
+
 
 plt.xlabel('Depth (cm)')
 plt.ylabel('LET (MeV cm^2 / g)')
 plt.title('LET profile in Al (CSDA)')
+plt.legend()
 plt.grid()
 plt.show()
 

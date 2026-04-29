@@ -15,6 +15,9 @@ Stopping power dataset：https://www.nist.gov/pml/stopping-power-range-tables-el
 The y axis, stopping power can be explain as $Energy [MeV] /Density[(g/cm^3)]*thickness(cm)$\
 Reference：STOPPING POWER, ITS MEANING, AND ITS GENERAL CHARACTERISTICS\
 
+## Linear Energy Transfer
+<img src="image/LET_profile_aluminum.png" width="60%">\
+
 ## CSDA (continuous slowing-down approximation) Range
 <img src="image/CSDA_range.png" width="60%">\
 
