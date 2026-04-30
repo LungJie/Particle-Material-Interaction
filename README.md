@@ -8,12 +8,16 @@ The content will cover the stopping power, linear energy transfer and the energy
 3. Helium
 ## Stopping Power 
 Unit: $MeV cm^2/g$\
-Physical Meaning：\
+Physics Definition：\
 The mean energy loss of an energetic particle per unit path length in a given material\
 Stopping power dataset：https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
 <img src="image/aluminum_stopping_power.png" width="60%">\
 The y axis, stopping power can be explain as $Energy [MeV] /Density[(g/cm^3)]*thickness(cm)$\
 Reference：STOPPING POWER, ITS MEANING, AND ITS GENERAL CHARACTERISTICS\
+## Linear Energy Transfer
+Physics Definition：\
+The energy loss of an energetic particle in a given material and given depth
+
 
 ## Linear Energy Transfer
 <img src="image/LET_profile_aluminum.png" width="60%">\
