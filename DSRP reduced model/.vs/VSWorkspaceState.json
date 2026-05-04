@@ -1,0 +1,17 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\build\\CMakeFiles",
+    "\\build\\CMakeFiles\\3.20.21032501-MSVC_2",
+    "\\src"
+  ],
+  "SelectedNode": "\\src\\PrimaryGeneratorAction.cc",
+  "PreviewInSolutionExplorer": false
+}

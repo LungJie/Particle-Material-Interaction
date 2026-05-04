@@ -1,0 +1,4 @@
+/run/initialize
+/run/setCut 10 nm
+/gun/particle proton
+

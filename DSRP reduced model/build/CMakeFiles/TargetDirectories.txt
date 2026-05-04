@@ -1,0 +1,3 @@
+C:/geant4_application/DSRP model shielded in vacuum/build/CMakeFiles/exampleB1.dir
+C:/geant4_application/DSRP model shielded in vacuum/build/CMakeFiles/ALL_BUILD.dir
+C:/geant4_application/DSRP model shielded in vacuum/build/CMakeFiles/ZERO_CHECK.dir
