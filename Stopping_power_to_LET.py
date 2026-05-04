@@ -77,22 +77,21 @@ plt.legend()
 plt.grid()
 plt.show()
 
-# Combine data (similar to MATLAB cat)
-#combined = []
-#for i in range(3):
-#    depth = np.array(depth_array[i])
-#    LET_vals = np.array(LET_array[i])
-#    
-#    # Pad to same length
-#    max_len = max(len(depth), len(LET_vals))
-#    depth = np.pad(depth, (0, max_len - len(depth)), constant_values=np.nan)
-#    LET_vals = np.pad(LET_vals, (0, max_len - len(LET_vals)), constant_values=np.nan)
-#
-#    combined.append(depth)
-#    combined.append(LET_vals)
+ #Combine data 
+combined = []
+for i in range(3):
+    depth = np.array(depth_array[i])
+    LET_vals = np.array(LET_array[i])
+    
+    # Pad to same length
+    max_len = max(len(depth), len(LET_vals))
+    depth = np.pad(depth, (0, max_len - len(depth)), constant_values=np.nan)
+    LET_vals = np.pad(LET_vals, (0, max_len - len(LET_vals)), constant_values=np.nan)
 
-# Stack and transpose
-#LET_output = np.vstack(combined).T
+    combined.append(depth)
+    combined.append(LET_vals)
+ #Stack and transpose
+LET_output = np.vstack(combined).T
 
 # Save to CSV
-#pd.DataFrame(LET_output).to_csv("Linear energy transfer Al.csv", index=False)
+pd.DataFrame(LET_output).to_csv("Linear energy transfer Al.csv", index=False)
