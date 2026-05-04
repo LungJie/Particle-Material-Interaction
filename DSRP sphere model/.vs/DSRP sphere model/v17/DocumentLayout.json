@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\geant4_application\\DSRP sphere model\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\src\\DetectorConstruction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\DetectorConstruction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\src\\PrimaryGeneratorAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\PrimaryGeneratorAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\src\\EventAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\EventAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\include\\DetectorConstruction.hh||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\DetectorConstruction.hh||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\include\\PrimaryGeneratorAction.hh||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\PrimaryGeneratorAction.hh||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\geant4_application\\DSRP sphere model\\src\\RunAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RunAction.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetectorConstruction.hh",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\include\\DetectorConstruction.hh",
+              "RelativeDocumentMoniker": "include\\DetectorConstruction.hh",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\include\\DetectorConstruction.hh",
+              "RelativeToolTip": "include\\DetectorConstruction.hh",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-09T13:51:10.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetectorConstruction.cc",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\src\\DetectorConstruction.cc",
+              "RelativeDocumentMoniker": "src\\DetectorConstruction.cc",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\src\\DetectorConstruction.cc",
+              "RelativeToolTip": "src\\DetectorConstruction.cc",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwEkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-08T11:18:31.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RunAction.cc",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\src\\RunAction.cc",
+              "RelativeDocumentMoniker": "src\\RunAction.cc",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\src\\RunAction.cc",
+              "RelativeToolTip": "src\\RunAction.cc",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-08T12:28:09.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrimaryGeneratorAction.hh",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\include\\PrimaryGeneratorAction.hh",
+              "RelativeDocumentMoniker": "include\\PrimaryGeneratorAction.hh",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\include\\PrimaryGeneratorAction.hh",
+              "RelativeToolTip": "include\\PrimaryGeneratorAction.hh",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-08T12:24:34.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrimaryGeneratorAction.cc",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\src\\PrimaryGeneratorAction.cc",
+              "RelativeDocumentMoniker": "src\\PrimaryGeneratorAction.cc",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\src\\PrimaryGeneratorAction.cc",
+              "RelativeToolTip": "src\\PrimaryGeneratorAction.cc",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-08T12:15:33.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventAction.cc",
+              "DocumentMoniker": "C:\\geant4_application\\DSRP sphere model\\src\\EventAction.cc",
+              "RelativeDocumentMoniker": "src\\EventAction.cc",
+              "ToolTip": "C:\\geant4_application\\DSRP sphere model\\src\\EventAction.cc",
+              "RelativeToolTip": "src\\EventAction.cc",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-08T12:15:26.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
