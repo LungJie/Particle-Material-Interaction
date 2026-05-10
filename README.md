@@ -1,7 +1,7 @@
 # Particle Material Interaction
 This is a simple demostration about particle material interaction physics\
 The objective is to estimate the space radiation impact on CubeSat or instrument\
-The content will cover the stopping power, linear energy transfer and the energy deposition\
+The content will cover the stopping power, linear energy transfer and the energy deposition
 ## Space Energetic Particles
 1. Proton
 2. Electron
@@ -18,12 +18,24 @@ Reference：STOPPING POWER, ITS MEANING, AND ITS GENERAL CHARACTERISTICS\
 ## Linear Energy Transfer
 <img src="image/LET_profile_aluminum.png" width="60%">\
 When particle transverse the material
-## CSDA (continuous slowing-down approximation) Range
-<img src="image/CSDA_range.png" width="60%">\
+
+## Energy Deposition
+[Stopping power to energy deposition](Stopping_power_to_energy_deposition.py)\
+LET profile integration
 
 ## Geant4 Simulation
-Geant4：https://geant4.web.cern.ch/
-Toolkit for the simulation of the passage of particles through matter
+Toolkit for the simulation of the passage of particles through matter\
+Geant4：https://geant4.web.cern.ch/\
+Basic structure：https://prezi.com/i/gp3kiz0ubh3e/geant4-basic-structure/\
+Physic list document：[PhysicsListGuide](<Reference document/PhysicsListGuide.pdf>)\
+Helpful tutorial：
+https://www.youtube.com/playlist?list=PL1AYUn8GT4HkL09iElGRk8NRIfR3tUywQ
+Examples\
+1. DSRP Simple Model (Based on Geant4 basic example B1) 
+[Geant4 code](<DSRP reduced model>)
+2. DSRP Model changing incident angle (Based on Geant4 basic example B5)
+ [Geant4 code](<DSRP model adjust the incident angle>)
+
 
 
 
