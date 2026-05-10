@@ -2,10 +2,7 @@
 This is a simple demostration about particle material interaction physics\
 The objective is to estimate the space radiation impact on CubeSat or instrument\
 The content will cover the stopping power, linear energy transfer and the energy deposition
-## Space Energetic Particles
-1. Proton
-2. Electron
-3. Helium
+
 ## Stopping Power 
 Unit: $MeV cm^2/g$\
 Physics Definition：\
@@ -17,8 +14,10 @@ The y axis, stopping power can be explain as $Energy [MeV] /Density[(g/cm^3)]*th
 Reference：[Inokuti, M., & Argonne National Lab., IL (United States). (1995). Stopping power, its meaning, and its general characteristics.](<Reference document/Stopping power its meaning and its general characteristics.pdf>)
 
 ## Linear Energy Transfer
+Unit: $MeV/cm$\
+Definition：Average energy deposited per unit length of track\
 <img src="image/LET_profile_aluminum.png" width="60%">\
-When particle transverse the material
+
 
 ## Energy Deposition
 [Stopping power to energy deposition](Stopping_power_to_energy_deposition.py)\
@@ -42,7 +41,4 @@ Reference：
 1. J. Allison et al., "Geant4 developments and applications," IEEE Transactions on Nuclear Science, vol. 53, no. 1, pp. 270-278, Feb. 2006, doi: 10.1109/TNS.2006.869826.
 2. S. Agostinelli et al., "Geant4—a simulation toolkit," Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, vol. 506, no. 3, pp. 250-303, 2003/07/01/ 2003, doi: https://doi.org/10.1016/S0168-9002(03)01368-8.
 
-
-## Reference
-1. Particle Interactions with Matter：https://cds.cern.ch/record/2674116/files/660.pdf
 
