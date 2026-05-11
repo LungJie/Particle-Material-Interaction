@@ -19,14 +19,21 @@
      A high ionizind dose deposition, from a single high energy particle, occurring in a sensitive region of the device
 
 ## Another integrated analysis toolkit：SHIELDOSE-2
-Use in STK, IRENE dose estimation
-
+Use in STK, IRENE, SPENVIS dose estimation\
+SHIELDOSE-2 does not consider the effect of detector thickness when computing doses\
+<img src="image/SHIELDOSE-2 geometries.png" width="60%">\
+Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage code evaluation phase 1: SHIELDOSE-2 radiation-assessment code (NASA/TM-20230010640). National Aeronautics and Space Administration.](<Reference document/Space-Shielding Radiation Dosage Code Evaluation.pdf>)
 
 # Example
 ## DSRP Analysis
 ### Objective: Analysis the expected energy deposition when DSRP transverse the radiation belt
 1. Environment > Radiation Belt
     Incident particle fluence by IRENE simulation
-2. Instrument fluence to deposited energy
-    Obtain by Geant4 simulation
+<img src="image/Radiation belt energy spectrum.png" width="50%">  
+2. Instrument fluence to deposited energy from Geant4 simulation
+<img src="image/proton helium energy deposition.png" width="50%">
+3. Integration\
+ <img src="image/integration results.png" width="50%"> 
+
 ## ATP Test
+### Objective: Estimate the energy remaining when pass through one PCB
