@@ -7,8 +7,7 @@ from scipy.interpolate import interp1d
 data = pd.read_excel("stopping power and energy deposited aluminum.xlsx")
 
 # Initial energies [MeV]
-#E0 = [23.5, 30, 50]
-E0 = [200, 300, 400]
+E0 = [23.5, 30, 50]
 
 rho = 2.7              # Density [g/cm^3]
 dx_nm = 10             # Step size [nm]
@@ -61,7 +60,7 @@ for h in range(len(E0)):
 
 # Convert to numpy arrays (ragged → object)
 depth_array = np.array(depth_list, dtype=object)
-LET_array = np.array(LET_list, dtype=object)
+LET_array = np.array(LET_list*2.7, dtype=object)
 
 # Plot
 plt.figure()
