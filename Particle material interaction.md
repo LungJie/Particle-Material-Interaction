@@ -17,10 +17,10 @@ Unit: $MeV/cm$\
 Definition：Average energy deposited per unit length of track\
 Continuous Slowing Down Approximation (CSDA)\
 [CSDA LET Python code](Stopping_power_to_LET.py)
-1. Assume the material thickness $ L $. Set unit length $ \Delta t=10 nm$ 
-2. At $ L=0 $, the incident particle with energy $ E =E_{0}$, the initial particle stopping power $ T(E_{0})=T_{0}$ (refer to stopping power profile) 
-3. At $ L=\Delta t $, the incident particle energy $ E_{1} =E_{0}-(T_{0}\Delta t)$, the particle stopping power $ T(E_{1})=T_{1}$(refer to stopping power profile) 
-4. At $ L=2\Delta t $, the incident particle energy $ E_{2} =E_{1}-(T_{1}\Delta t)$, the particle stopping power $ T(E_{2})=T_{2}$(refer to stopping power profile) 
+1. Assume the material thickness $L$. Set unit length $\Delta t=10 nm$ 
+2. At $L=0$, the incident particle with energy $E =E_{0}$, the initial particle stopping power $T(E_{0})=T_{0}$ (refer to stopping power profile) 
+3. At $ L=\Delta t $, the incident particle energy $ E_{1} =E_{0}-(T_{0}\Delta t)$, the particle stopping power $T(E_{1})=T_{1}$(refer to stopping power profile) 
+4. At $L=2\Delta t$, the incident particle energy $E_{2} =E_{1}-(T_{1}\Delta t)$, the particle stopping power $T(E_{2})=T_{2}$(refer to stopping power profile) 
 
 <img src="image/LET_profile_aluminum.png" width="60%">\
 
