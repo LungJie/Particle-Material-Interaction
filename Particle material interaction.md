@@ -9,10 +9,9 @@ _Please note that all radiation effects on electronics, such as TID, TNID and SE
 Unit: $MeV cm^2/g$\
 Physics Definition：\
 The mean energy loss of an energetic particle per unit path length in a given material\
-Stopping power is obtained from the NIST STAR database:：\
+Stopping power is obtained from the NIST STAR database：\
 https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
 <img src="image/aluminum_stopping_power.png" width="60%">\
-The y axis, stopping power can be explain as $Energy [MeV] /Density[(g/cm^3)] \times thickness(cm)$\
 Reference：[Inokuti, M., & Argonne National Lab., IL (United States). (1995). Stopping power, its meaning, and its general characteristics.](<Reference document/Stopping power its meaning and its general characteristics.pdf>)
 
 ## Linear Energy Transfer
@@ -55,22 +54,25 @@ L. C. Chang et al., "The Deep Space Radiation Probe: Development of a first luna
 + PCB：1.6 mm 
 + RADFET：400 nm SiO2
 ### Model
-1. DSRP Simple Model (Based on Geant4 basic example B1) 
+1. DSRP Simple Model (Based on [Geant4 basic example B1](<https://geant4-userdoc.web.cern.ch/Doxygen/examples_doc/html/ExampleB1.html>))
 [Geant4 code](<DSRP reduced model>)\
  a. [DetectorConstruction](<DSRP reduced model/src/DetectorConstruction.cc>)\
  b. [PrimaryGeneratorAction](<DSRP reduced model/src/PrimaryGeneratorAction.cc>)\
  c. [Physicslist](<DSRP reduced model/exampleB1.cc>)
-2. DSRP Model changing incident angle (Based on Geant4 basic example B5)
- [Geant4 code](<DSRP model adjust the incident angle>)
+2. DSRP Model changing incident angle (Based on [Geant4 basic example B5](<https://geant4-userdoc.web.cern.ch/Doxygen/examples_doc/html/ExampleB5.html>))
+ [Geant4 code](<DSRP model adjust the incident angle>)\
+ a. [DetectorConstruction](<DSRP model adjust the incident angle/src/DetectorConstruction.cc>)\
+ b. [PrimaryGeneratorAction](<DSRP model adjust the incident angle/src/PrimaryGeneratorAction.cc>)\
+ c. [Physicslist](<DSRP model adjust the incident angle/exampleB1.cc>)
 ### Results
 ---
-The figure shows the proton, electron and helium interaction with material\
-From Geant4 simulation we can observe the secondary particles contribution and some fun phonomenon
-+ The electron possess obviouse scattering effect, the gamma ray as secondary radiaiton can be observed. Since electron has lowest stopping power, it can transverse the material most easily
-+ When proton and helium transverse the material, electron as secondary particle would be generated which can't be astimate as the simple calculation as we discuss previously
+The figure shows the interaction of protons, electrons and helium with material.
+From the Geant4 simulation, we can observe the contribution of secondary particles and some interesting phenomena.
++ The electron has an obvious scattering effect and the gamma ray, as a secondary radiation, can be observed. Since the electron has the lowest stopping power, it can transverse the material most easily.
++ When protons and helium traverse the material, electrons are generated as secondary particles, which cannot be estimated using the simple calculations we discussed previously.
 ![Geant4 simulation results](<image/geant4 simulation.png>)
 ---
-The figure shows the geant4 simulation results with proton as incident particle
+Figure (b) shows the GEANT4 simulation results for protons as the incident particle. The incident proton energy must be greater than 22 MeV to traverse the 2.5 mm aluminium shielding, which is consistent with the LET obtained by CSDA, as shown in Figure (c).The decrease in energy deposition when the incident energy increases can be explained by integrating the LET profile.
 <img src="image/Al stopping power_energy deposited_LET profile subplot version thesis v update.png" width="80%">\
 Reference：
 1. J. Allison et al., "Geant4 developments and applications," IEEE Transactions on Nuclear Science, vol. 53, no. 1, pp. 270-278, Feb. 2006, doi: 10.1109/TNS.2006.869826.

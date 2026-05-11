@@ -60,38 +60,17 @@ for h in range(len(E0)):
 
 # Convert to numpy arrays (ragged → object)
 depth_array = np.array(depth_list, dtype=object)
-LET_array = np.array(LET_list*2.7, dtype=object)
+LET_array = np.array(LET_list, dtype=object)
 
 # Plot
 plt.figure()
 for i in range(3):
     depth_cm = np.array(depth_array[i]) * 1e-7
     LET_vals = np.array(LET_array[i])
-    plt.plot(depth_cm, LET_vals, linewidth=2, label=f'E0 = {E0[i]} MeV')
-
+    plt.plot(depth_cm, LET_vals, linewidth=2)
 
 plt.xlabel('Depth (cm)')
-plt.ylabel('LET (MeV cm^2 / g)')
+plt.ylabel('LET (MeV /cm)')
 plt.title('LET profile in Al (CSDA)')
-plt.legend()
 plt.grid()
 plt.show()
-
-# #Combine data 
-#combined = []
-#for i in range(3):
-#    depth = np.array(depth_array[i],dtype=float)
-#    LET_vals = np.array(LET_array[i],dtype=float)
-#    
-#    # Pad to same length
-#    max_len = max(len(depth), len(LET_vals))
-#    depth = np.pad(depth, (0, max_len - len(depth)), constant_values=np.nan)
-#    LET_vals = np.pad(LET_vals, (0, max_len - len(LET_vals)), constant_values=np.nan)
-#
-#    combined.append(depth)
-#    combined.append(LET_vals)
-# #Stack and transpose
-#LET_output = np.vstack(combined).T
-#
-## Save to CSV
-#pd.DataFrame(LET_output).to_csv("Linear energy transfer Al.csv", index=False)
