@@ -19,7 +19,7 @@ Continuous Slowing Down Approximation (CSDA)\
 [CSDA LET Python code](Stopping_power_to_LET.py)
 1. Assume the material thickness $L$. Set unit length $\Delta t=10 nm$ 
 2. At $L=0$, the incident particle with energy $E =E_{0}$, the initial particle stopping power $T(E_{0})=T_{0}$ (refer to stopping power profile) 
-3. At $ L=\Delta t $, the incident particle energy $ E_{1} =E_{0}-(T_{0}\Delta t)$, the particle stopping power $T(E_{1})=T_{1}$(refer to stopping power profile) 
+3. At $L=\Delta t$, the incident particle energy $E_{1} =E_{0}-(T_{0}\Delta t)$, the particle stopping power $T(E_{1})=T_{1}$(refer to stopping power profile) 
 4. At $L=2\Delta t$, the incident particle energy $E_{2} =E_{1}-(T_{1}\Delta t)$, the particle stopping power $T(E_{2})=T_{2}$(refer to stopping power profile) 
 
 <img src="image/LET_profile_aluminum.png" width="60%">\
@@ -28,9 +28,9 @@ Continuous Slowing Down Approximation (CSDA)\
 ## Energy Deposition
 LET profile integration\
 Particle energy loss=particle energy deposition\
-$\int_0^L {T} \,{\rm d}t $ (Estimate the energy deposition in the material)\
+$\int_0^L {T} \,{\rm d}t$ (Estimate the energy deposition in the material)\
 Particle energy remaining\
-$E=E_{0}-\int_0^L {T} \,{\rm d}t $ (Estimate the particle energy when it pass through shielding)\
+$E=E_{0}-\int_0^L {T} \,{\rm d}t$ (Estimate the particle energy when it pass through shielding)\
 [Python code of Stopping power to energy deposition](Stopping_power_to_energy_deposition.py)
 
 
