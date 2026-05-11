@@ -9,6 +9,8 @@
     $$
     D = \int_{0}^{\infty} d(E)\,\frac{d\Phi}{dE}\,dE
     $$
+4. TID, TNID and SEE estimation
+    + TNID about 0.1% of total energy loss
 
 # Example
 ## DSRP Analysis

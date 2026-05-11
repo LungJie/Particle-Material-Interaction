@@ -1,9 +1,7 @@
 # Particle Material Interaction
 
 This is a simple demonstration of the physics of particle-material interactions.\
-The objective is to estimate the impact of space radiation on a CubeSat or instrument.\
 The content will cover stopping power, linear energy transfer and energy deposition.\
-_Please note that all radiation effects on electronics, such as TID, TNID and SEE, originate from particle-material interactions and energy deposition in the material._
 
 ## Stopping Power 
 Unit: $MeV cm^2/g$\
