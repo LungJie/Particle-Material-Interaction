@@ -35,4 +35,5 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 
 ## ATP Test
 ### Objective: Estimate the energy remaining when pass through one PCB
-
+1. Environment > assume the proton beam energy is 220 MeV
+2. Assume the PCB material is SiO2 with 1.6 mm thickness
