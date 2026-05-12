@@ -1,7 +1,7 @@
 # Particle Material Interaction
 
 This is a simple demonstration of the physics of particle-material interactions.\
-The content will cover stopping power, linear energy transfer and energy deposition.\
+The content will cover stopping power, linear energy transfer and energy deposition, include the simple estimation method and Geant4 simulation.
 
 ## Stopping Power 
 Unit: $MeV cm^2/g$\
