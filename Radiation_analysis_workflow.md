@@ -38,7 +38,19 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 1. Environment > assume the proton beam energy is 220 MeV
 2. Assume the PCB material is SiO2 with 1.6 mm thickness
     From the NIST STAR database：\
-https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
- <img src="image/SiO2_stopping_power.png" width="50%">\
+    https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
+    <img src="image/SiO2_stopping_power.png" width="50%">
 
-3. The LET profile of 220 MeV proton in SiO2
+3. The LET profile of 220 MeV proton in SiO2 as below\
+    <img src="image/PCB LET Profile with proton beam 220 MeV.png" width="50%">
+    
+    Under the PCB shielding condition, the 220 MeV proton will stop at approximately 20 cm depth\
+     Assume that the PCB thickness is 1.6 mm,zoom in to observe thin thickness\
+    <img src="image/SiO2_LET.png" width="50%">
+
+4. Calculate the energy remaining\
+   After pass through the 1.6 mm PCB material, the 220 MeV proton has approximately 218.95 MeV 
+    <img src="image/ATP incident particle energy.png" width="50%">
+
+If the experiment want to control the incident beam energy by shielding configuration, the 1.6 mm PCB seems too thin\
+Maybe some plastic material such as Polyethylene is better to use in the proton beam test as shielding control material
