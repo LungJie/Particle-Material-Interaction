@@ -37,3 +37,8 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 ### Objective: Estimate the energy remaining when pass through one PCB
 1. Environment > assume the proton beam energy is 220 MeV
 2. Assume the PCB material is SiO2 with 1.6 mm thickness
+    From the NIST STAR database：\
+https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
+ <img src="image/SiO2_stopping_power.png" width="50%">\
+
+3. The LET profile of 220 MeV proton in SiO2

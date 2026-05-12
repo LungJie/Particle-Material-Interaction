@@ -3,18 +3,18 @@ import pandas as pd
 from scipy.interpolate import interp1d
 
 # Read Excel
-data = pd.read_excel("electron and proton stopping power.xlsx")
+data = pd.read_excel("stopping power and energy deposited aluminum.xlsx")
 
 # Initial energies [MeV]
-E0 = np.array([23.5, 30, 50])
+E0 = np.array([22, 30, 50])
 
 rho = 2.7              # Density [g/cm^3]
 dx_nm = 10             # Step size [nm]
 dx = dx_nm * 1e-7      # Step size [cm]
 
 # Energy and stopping power
-E_SP = data.iloc[:, 2].values   # column 3 in MATLAB
-SP_data = data.iloc[:, 3].values  # column 4 in MATLAB
+E_SP = data.iloc[:, 0].values   # column 3 in MATLAB
+SP_data = data.iloc[:, 1].values  # column 4 in MATLAB
 
 # Interpolation
 SP = interp1d(E_SP, SP_data, kind='linear', fill_value='extrapolate')
