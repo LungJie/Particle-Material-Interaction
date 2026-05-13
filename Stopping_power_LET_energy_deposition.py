@@ -19,10 +19,10 @@ rho = 2.7
 #rho = 1.85
 # ----- Initial energies [MeV] -----
 # Single energy:
-E0_list = [50]
+#E0_list = [220]
 
 # Multiple energies:
-#E0_list = [22, 30, 50]
+E0_list = [22, 30, 50]
 
 # ----- Step size -----
 dx_nm = 10         # nm(1mm)
@@ -103,13 +103,13 @@ for E0 in E0_list:
             E = 0
         else:
             E -= dE
-        
+            DE=E0-E
         # Store
         depth_track.append(depth_mm)
         LET_track.append(LET)
         energy_track.append(E)
-        #energy_deposition.append(dE)
-        energy_deposition=E0-E
+        energy_deposition.append(DE)
+        #energy_deposition=E0-E
     
 
         # Update depth
@@ -119,7 +119,7 @@ for E0 in E0_list:
     all_depth.append(np.array(depth_track))
     all_LET.append(np.array(LET_track))
     all_energy.append(np.array(energy_track))
-    #all_energy_deposition.append(np.array(energy_deposition))
+    all_energy_deposition.append(np.array(energy_deposition))
 # =========================================================
 # PLOT
 # =========================================================
@@ -152,20 +152,19 @@ for i, E0 in enumerate(E0_list):
         )
 
         plt.ylabel('Particle Energy (MeV)')
-        plt.title(f'Remaining Energy in {material_name}')
-print(f"E0 = {E0} MeV → Residual = {energy_deposition:.4f} MeV, Deposited = {energy_deposition:.4f} MeV")
-#    elif plot_mode == "Energy Deposition":
-#
-#        plt.plot(
-#            depth,
-#            #all_energy[i],
-#            all_energy_deposition[i],
-#            linewidth=2,
-#            label=f'{E0} MeV'
-#        )
-#
-#        plt.ylabel('Energy Deposition (MeV)')
-#        plt.title(f'Remaining Energy in {material_name}')
+        plt.title(f'Incident Particle Remaining Energy')
+    elif plot_mode == "Energy Deposition":
+
+        plt.plot(
+            depth,
+            #all_energy[i],
+            all_energy_deposition[i],
+            linewidth=2,
+            label=f'{E0} MeV'
+        )
+
+        plt.ylabel('Energy Deposition (MeV)')
+        plt.title(f'Deposition Energy in {material_name}')
 # Common settings
 plt.xlabel('Depth (mm)')
 plt.grid(True)
