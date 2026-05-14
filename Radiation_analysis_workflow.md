@@ -30,11 +30,12 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 ## DSRP Analysis
 ### Objective: Analysis the expected energy deposition when DSRP transverse the radiation belt
 1. Environment > Radiation Belt\
-Incident particle fluence by IRENE simulation\
+Incident particle fluence by IRENE simulation
+\
 <img src="image/Radiation belt energy spectrum.png" width="50%">  
-2. Instrument fluence to deposited energy from Geant4 simulation
+3. Instrument fluence to deposited energy from Geant4 simulation
 <img src="image/proton helium energy deposition.png" width="50%">
-3. Integration > obtain expected energy deposition
+4. Integration > obtain expected energy deposition
 \
 <img src="image/integration results.png" width="50%"> 
 
