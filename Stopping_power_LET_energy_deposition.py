@@ -8,33 +8,33 @@ from scipy.interpolate import interp1d
 # =========================================================
 
 # ----- Material selection -----
-#material_name = "Aluminum"
-material_name = "SiO2"
+material_name = "Aluminum"
+#material_name = "SiO2"
 # Excel file
-#excel_file = "stopping power and energy deposited aluminum.xlsx"
-excel_file = "SiO2 electron and proton stopping power.xlsx"
+excel_file = "stopping power and energy deposited aluminum.xlsx"
+#excel_file = "SiO2 electron and proton stopping power.xlsx"
 
 # Density [g/cm^3]
-#rho = 2.7 #Aluminum density
-rho = 1.85  #SiO2 density
+rho = 2.7 #Aluminum density
+#rho = 1.85  #SiO2 density
 # ----- Initial energies [MeV] -----
 # Single energy:
-E0_list = [220]
+#E0_list = [220]
 
 # Multiple energies:
-#E0_list = [22, 30, 50]
+E0_list = [22, 30, 50]
 
 # ----- Step size -----
 dx_nm = 10         # nm(1mm)
 #dx_nm = 1*10^6          # nm(1mm)
 
 # ----- Maximum depth -----
-#max_depth_mm = 120  # mm 
-max_depth_mm = 1.6  # mm one PCB
+max_depth_mm = 120  # mm 
+#max_depth_mm = 1.6  # mm one PCB
 # ----- Plot mode -----
 # "LET" or "Energy"
-#plot_mode = "LET"
-plot_mode="Energy Remaining"
+plot_mode = "LET"
+#plot_mode="Energy Remaining"
 #plot_mode="Energy Deposition"
 # =========================================================
 # READ STOPPING POWER DATA
