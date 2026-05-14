@@ -22,7 +22,7 @@
 
 ## Another integrated analysis toolkit：SHIELDOSE-2
 Use in STK, IRENE, SPENVIS dose estimation\
-SHIELDOSE-2 does not consider the effect of detector thickness when computing doses\
+SHIELDOSE-2 didn't consider the effect of detector thickness when computing doses\
 <img src="image/SHIELDOSE-2 geometries.png" width="60%">\
 Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage code evaluation phase 1: SHIELDOSE-2 radiation-assessment code (NASA/TM-20230010640). National Aeronautics and Space Administration.](<Reference document/Space-Shielding Radiation Dosage Code Evaluation.pdf>)
 
