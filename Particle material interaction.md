@@ -67,7 +67,7 @@ L. C. Chang et al., "The Deep Space Radiation Probe: Development of a first luna
 ### Results
 ---
 The figure shows the interactions of protons, electrons, and helium ions with the material.
-From the Geant4 simulation, we can observe the contributions of secondary particles as well as several interesting phenomena.
+From the Geant4 simulation, we can observe the contributions of secondary particles and several interesting phenomena.
 + Electrons exhibit significant scattering effects, and gamma rays generated as secondary radiation can also be observed. Since electrons have the lowest stopping power, they can penetrate the material more easily than the other particles.
 + When protons and helium ions traverse the material, secondary electrons are generated, which cannot be accurately estimated using the simple calculations discussed previously.
 ![Geant4 simulation results](<image/geant4 simulation.png>)
