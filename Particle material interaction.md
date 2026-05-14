@@ -32,7 +32,7 @@ $\int_0^L {T} \,{\rm d}t$ (Estimate the energy deposition in the material)\
 Particle energy remaining\
 $E=E_{0}-\int_0^L {T} \,{\rm d}t$ (Estimate the particle energy when it pass through shielding)
 \
-[Python code (plot_mode = "Energy Remaining")](Stopping_power_LET_energy_deposition.py)
+[Python code (plot_mode = "Energy Remaining")](Stopping_power_LET_energy_deposition.py)\
 <img src="image/incident_particle_energy_remaining.png" width="60%">
 
 
