@@ -54,6 +54,7 @@ Incident particle fluence by IRENE simulation\
 4. Calculate the energy remaining\
    After pass through the 1.6 mm PCB material, the 220 MeV proton has approximately 218.95 MeV 
     <img src="image/SiO2_energy_deposition.png" width="50%">
+    
     <img src="image/SiO2_incident_particle_energy_remaining.png" width="50%">
 
 If the experiment aims to control the incident beam energy through the shielding configuration, a 1.6 mm PCB seems too thin.\
