@@ -28,7 +28,7 @@ Continuous Slowing Down Approximation (CSDA)\
 ## Energy Deposition
 LET profile integration\
 Particle energy loss=particle energy deposition\
-$\int_0^L {T} \,{\rm d}t$ (Estimate the energy deposition in the material)\
+$\int_0^L {T} \ {\rm d}t$ (Estimate the energy deposition in the material)\
 Particle energy remaining\
 $E=E_{0}-\int_0^L {T} \ f{\rm d}t$ (Estimate the particle energy when it pass through shielding)
 \
