@@ -1,4 +1,4 @@
-# Instructors of this repository
+# Instructions of this repository
 The objective of this repository is to estimate the impact of radiation on a CubeSat or instrument.\
 _Please note that all radiation effects on electronics, such as TID, TNID and SEE, originate from particle-material interactions and energy deposition in the material._
 
