@@ -55,7 +55,7 @@ Incident particle fluence by IRENE simulation\
    After pass through the 1.6 mm PCB material, the 220 MeV proton has approximately 218.95 MeV 
     <img src="image/SiO2_energy_deposition.png" width="50%">
     
-    <img src="image/SiO2_incident_particle_energy_remaining.png" width="50%">
+    <img src="image/SiO2_Incident_particle_energy_remaining.png" width="50%">
 
 If the experiment aims to control the incident beam energy through the shielding configuration, a 1.6 mm PCB seems too thin.\
 Plastic materials such as polyethylene may be more suitable for use as shielding control materials in proton beam tests.
