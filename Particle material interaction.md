@@ -4,7 +4,7 @@ This is a simple demonstration of the physics of particle-material interactions.
 In the following, it will cover stopping power, linear energy transfer and energy deposition, include the simple estimation method and Geant4 simulation.
 
 ## Stopping Power 
-Unit：$MeV cm^2/g$\
+Unit：　$MeV cm^2/g$\
 Physics Definition：\
 The mean energy loss of an energetic particle per unit path length in a given material\
 Stopping power is obtained from the NIST STAR database：\
