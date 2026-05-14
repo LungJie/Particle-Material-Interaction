@@ -35,7 +35,6 @@ Incident particle fluence by IRENE simulation
 3. Instrument fluence to deposited energy from Geant4 simulation
 <img src="image/proton helium energy deposition.png" width="50%">
 4. Integration > obtain expected energy deposition
-\
 <img src="image/integration results.png" width="50%"> 
 
 ## ATP Test
