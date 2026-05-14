@@ -22,7 +22,7 @@ Continuous Slowing Down Approximation (CSDA)\
 3. At $L=\Delta t$, the incident particle energy $E_{1} =E_{0}-(T_{0}\Delta t)$, the particle stopping power $T(E_{1})=T_{1}$(refer to stopping power profile) 
 4. At $L=2\Delta t$, the incident particle energy $E_{2} =E_{1}-(T_{1}\Delta t)$, the particle stopping power $T(E_{2})=T_{2}$(refer to stopping power profile) 
 
-<img src="image/LET_profile_aluminum.png" width="60%">\
+<img src="image/LET_profile_aluminum.png" width="60%">
 
 
 ## Energy Deposition
