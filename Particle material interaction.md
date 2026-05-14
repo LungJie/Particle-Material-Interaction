@@ -38,7 +38,7 @@ $E=E_{0}-\int_0^L {T} \,{\rm d}t$ (Estimate the particle energy when it pass thr
 
 ## Geant4 Simulation
 Toolkit for the simulation of the passage of particles through matter\
-Geant4：https://geant4.web.cern.ch/\
+Geant4：https://geant4.web.cern.ch/ \
 Basic structure：https://prezi.com/i/gp3kiz0ubh3e/geant4-basic-structure/ \
 Physic list document：[PhysicsListGuide](<Reference document/PhysicsListGuide.pdf>)\
 Helpful tutorial：
