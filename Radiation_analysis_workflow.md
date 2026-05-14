@@ -1,11 +1,11 @@
 # Radiation Analysis Workflow
-1. Define and simulate the environment condiiton
+1. Define and simulate the environment condiitons ($\frac{d\Phi}{dE}$)
     + What kinds of particle
-    + How much the incident energy
-2. Define and simulate the instrument fluence to deposited energy
-    + Obtain by stopping power to energy deposition transfer 
-    + Obtain by Geant4 simulation
-3. Integrating the differential flux with fluence to absorbed dose
+    + What is the incident energy
+2. Define and simulate the instrument fluence to deposited energy ($d(E)$)
+    + Obtain from stopping power calculation
+    + Obtain from Geant4 simulation
+3. Integrate the differential flux with the fluence-to-absorbed-dose relationship to calculate the absorbed dose.
     $$D = \int_{0}^{\infty} d(E)\,\frac{d\Phi}{dE}\,dE$$
 4. TID, TNID and SEE estimation
     + TID \
@@ -29,16 +29,17 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 ## DSRP Analysis
 ### Objective: Analysis the expected energy deposition when DSRP transverse the radiation belt
 1. Environment > Radiation Belt\
-    Incident particle fluence by IRENE simulation
+Incident particle fluence by IRENE simulation\
 <img src="image/Radiation belt energy spectrum.png" width="50%">  
 2. Instrument fluence to deposited energy from Geant4 simulation
 <img src="image/proton helium energy deposition.png" width="50%">
 3. Integration > obtain expected energy deposition
- <img src="image/integration results.png" width="50%"> 
+\
+<img src="image/integration results.png" width="50%"> 
 
 ## ATP Test
 ### Objective: Estimate the energy remaining when pass through one PCB
-[python code](<ATP_stopping power to LET.py>)
+[python code](<Stopping_power_to_energy_deposition.py>)
 1. Environment > assume the proton beam energy is 220 MeV
 2. Assume the PCB material is SiO2 with 1.6 mm thickness
     From the NIST STAR database：\
@@ -48,14 +49,11 @@ Reference：Gentz, S. J., & Jun, I. (2023). [Space-shielding radiation dosage co
 3. The LET profile of 220 MeV proton in SiO2 as below\
     <img src="image/PCB LET Profile with proton beam 220 MeV.png" width="50%">
 
-    Under the PCB shielding condition, the 220 MeV proton will stop at approximately 20 cm depth\
-     Assume that the PCB thickness is 1.6 mm,zoom in to observe thin thickness\
-    <img src="image/SiO2_LET.png" width="50%">
 
 4. Calculate the energy remaining\
    After pass through the 1.6 mm PCB material, the 220 MeV proton has approximately 218.95 MeV 
-   
-    <img src="image/ATP incident particle energy.png" width="50%">
+    <img src="image/SiO2_energy_deposition.png" width="50%">
+    <img src="image/SiO2_incident_particle_energy_remaining.png" width="50%">
 
-If the experiment want to control the incident beam energy by shielding configuration, the 1.6 mm PCB seems too thin\
-Maybe some plastic material such as Polyethylene is better to use in the proton beam test as shielding control material
+If the experiment aims to control the incident beam energy through the shielding configuration, a 1.6 mm PCB seems too thin.\
+Plastic materials such as polyethylene may be more suitable for use as shielding control materials in proton beam tests.
