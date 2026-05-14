@@ -2,7 +2,7 @@
 1. Define and simulate the environment condiitons ($\frac{d\Phi}{dE}$)
     + What kinds of particle
     + What is the incident energy
-2. Define and simulate the instrument fluence to deposited energy ($\d(E)$)
+2. Define and simulate the instrument fluence to deposited energy (${d(E)}$)
     + Obtain from stopping power calculation
     + Obtain from Geant4 simulation
 3. Integrate the differential flux with the fluence-to-absorbed-dose relationship to calculate the absorbed dose.
