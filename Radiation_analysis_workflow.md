@@ -1,5 +1,5 @@
 # Radiation Analysis Workflow
-1. Define and simulate the environment condiitons ($\frac{d\Phi}{dE}$)
+1. Define and simulate the environment conditons ($\frac{d\Phi}{dE}$)
     + What kinds of particle
     + What is the incident energy
 2. Define and simulate the instrument fluence to deposited energy (${d(E)}$)
