@@ -8,7 +8,7 @@ Unit : $MeVcm^2/g$\
 Physics Definition：\
 The mean energy loss of an energetic particle per unit path length in a given material\
 Stopping power is obtained from the NIST STAR database：\
-https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions\
+https://www.nist.gov/pml/stopping-power-range-tables-electrons-protons-and-helium-ions
 <img src="image/aluminum_stopping_power.png" width="60%">\
 Reference：[Inokuti, M., & Argonne National Lab., IL (United States). (1995). Stopping power, its meaning, and its general characteristics.](<Reference document/Stopping power its meaning and its general characteristics.pdf>)
 
